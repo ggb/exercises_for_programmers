@@ -1,7 +1,7 @@
 year(Year) :-
-    get_time(Stamp),
-    stamp_date_time(Stamp, DateTime, local),
-    date_time_value(year, DateTime, Year).
+  get_time(Stamp),
+  stamp_date_time(Stamp, DateTime, local),
+  date_time_value(year, DateTime, Year).
 
 ex6() :-
   writeln("What is your current age?"),
